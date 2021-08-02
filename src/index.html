@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="refresh" content="3;os.html" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="icon" href="assets/new-logo/white-blueshadow.png">
+    <style>
+        body {
+            background: black;
+            font-family: 'Segoe UI';
+            color: white;
+            font-size: xx-large;
+            font-weight: bold;
+            animation: appearing 1.5s ease-in-out;
+            text-align: center;
+        }
+        .align {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .logo {
+            font-weight: normal !important;
+            font-size: 16px !important;
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            opacity: 75%;
+        }
+        ::selection {
+            background-color: black;
+            color: white;
+        }
+        @keyframes appearing {
+            0% {opacity: 0;}
+            100% {opacity: 100% !important;}
+        }
+    </style>
+</head>
+<body>
+    <div class="align">
+        <img src="assets/new-logo/white-blueshadow.png" height="350px">
+    </div>Welcome
+
+    <div class="logo">
+        Made by&nbsp;
+        <img src="assets/Wylie.png" height="15px">
+    </div>
+</body>
+</html>
