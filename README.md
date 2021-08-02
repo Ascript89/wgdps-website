@@ -1,2 +1,2 @@
-# wgdps-website
-Repository for the actual WGDPS website (made for WylieGDPS).
+# WGDPS website
+i did a website for wgdps
